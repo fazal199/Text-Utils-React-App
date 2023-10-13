@@ -1,0 +1,1 @@
+It's my first react app which i have made to practice react. i learned so many things while creating this app as a beginner. This app allows you to customize your text like you can convert your whole text to uppercase, lowercase and also you can remove extra backspaces from your text.
