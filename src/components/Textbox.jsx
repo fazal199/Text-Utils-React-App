@@ -34,7 +34,7 @@ function Textbox() {
       answer = answer.filter(word => word!="");
       answer = answer.map(word => {
           firstletter = word.charAt(0).toUpperCase();
-          temporary = word.slice(1);
+          temporary = word.slice(1).toLowerCase();
           finalletter = firstletter + temporary;
           
           return finalletter;
