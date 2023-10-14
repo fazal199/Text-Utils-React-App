@@ -152,7 +152,7 @@ function Textbox() {
    
   return (
     <>
-        <textarea name='userinput'  onChange={updatetextinfo} rows="10" className='block w-full pt-16 mx-auto mt-6 resize-y'></textarea>
+        <textarea autoFocus name='userinput' onChange={updatetextinfo} rows="10" className='block w-full px-5 pt-16 mx-auto mt-6 resize-y outline outline-2 outline-blue-500'></textarea>
         <img onClick={copytext} className='absolute h-8 cursor-pointer right-4 top-28 laptop:top-44 mobile:top-32 mobile-xs:top-40' src={copy}></img>
           <ul className='flex flex-wrap justify-between max-w-4xl gap-6 mx-auto mt-6 text-2xl font-semibold tablet:justify-center'>
             <li>Words : {words}</li>
